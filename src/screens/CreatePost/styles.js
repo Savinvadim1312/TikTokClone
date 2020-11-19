@@ -4,29 +4,24 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'column',
-    backgroundColor: 'black',
+    justifyContent: 'space-between',
   },
-  preview: {
-    flex: 1,
-    justifyContent: 'flex-end',
+  textInput: {
+    margin: 10,
+    backgroundColor: 'white',
+  },
+  button: {
+    backgroundColor: '#ff4747',
     alignItems: 'center',
-  },
-  buttonRecord: {
-    alignSelf: 'center',
-    marginVertical: 10,
+    justifyContent: 'center',
+    margin: 10,
     height: 50,
-    width: 50,
-    borderRadius: 25,
-    backgroundColor: '#ff4343',
   },
-  buttonStop: {
-    alignSelf: 'center',
-    marginVertical: 20,
-    height: 30,
-    width: 30,
-    borderRadius: 3,
-    backgroundColor: '#ff4343',
-  },
+  buttonText: {
+    color: "white",
+    fontSize: 16,
+    fontWeight: 'bold',
+  }
 });
 
 export default styles;
